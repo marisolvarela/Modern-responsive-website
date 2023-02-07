@@ -1,3 +1,15 @@
+const iconMenu = document.getElementById('icon_menu');
+const menu = document.querySelector('.menu');
+
+iconMenu.addEventListener('click',()=>{
+    showMenu();
+})
+
+const showMenu = ()=>{
+    menu.classList.toggle('show_menu');
+
+}
+
 window.onscroll = function() {
     var position = window.pageY0llset || document.documentElement.scrollTop;
     var element1 = document.getElementById('icon_heart');
